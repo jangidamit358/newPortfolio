@@ -1,0 +1,86 @@
+.home__bg{
+    background-image: url(../images/mern-banner.png);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+li .nav__items{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.home_content{
+     padding: 125px 0px;
+}
+.home_line1{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: rgba(198, 200, 200) !important;
+}
+.home_line2{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Montserrat,sans-serif;
+    line-height: 40px;
+}
+.navigation{
+    background-color: #F9004D;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    font-family: Montserrat,
+    sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     z-index: 20;
+}
+.navbarformobile{
+    z-index: 10;
+    color: #fff;
+    position: fixed;
+    top: 10px;
+    left: 0%;
+    background-color: #F9004D;
+    transition: 1s;
+}
+#contents {    
+    margin-left: 60%;
+    width: 15%;
+    z-index: 7;
+    position: fixed;
+    top: 10px;
+    right: 1%;
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .header {
+        justify-content: space-between;
+    }
+
+    .navigation.pxy__30 {
+        display: none;
+    }
+
+    h2.white.pz__10 {
+        font-size: 50px !important;
+    }
+    
+    #contents{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    h3.home_line2.pz__10 {
+        font-size: 32px;
+    }    
+
+    h1.home_line1 {
+        font-size: 14px;
+    }   
+    .navbar{
+        display:none;
+    }
+}
